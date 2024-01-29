@@ -10,11 +10,15 @@ TWILIO_SID = os.getenv('TWILIO_SID')
 FROM = os.getenv('FROM')
 
 ERROR_MESSAGE = 'We are facing an issue.'
-
-OUTPUT_DIR = os.path.join(
-    tempfile.gettempdir(),
-    'document-gpt',
-    'output'
-)
+#
+# OUTPUT_DIR = os.path.join(
+#     tempfile.gettempdir(),
+#     'document-gpt',
+#     'output'
+# )
+#
+# os.makedirs(OUTPUT_DIR, exist_ok=True)
+# Update OUTPUT_DIR to a more stable directory
+OUTPUT_DIR = os.path.join(os.path.dirname(__file__), 'output')  # Change 'output' to your desired directory name
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
