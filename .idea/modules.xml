@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/YouTube-WhatsApp-Chatbot-Voice.iml" filepath="$PROJECT_DIR$/.idea/YouTube-WhatsApp-Chatbot-Voice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WhatsApp-Chatbot/.idea/WhatsApp-Chatbot.iml" filepath="$PROJECT_DIR$/../WhatsApp-Chatbot/.idea/WhatsApp-Chatbot.iml" />
     </modules>
   </component>
 </project>
